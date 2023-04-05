@@ -1,0 +1,39 @@
+.text {
+  font-weight: lighter;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.list {
+  display: flex;
+  margin: 2px 0px 2px 4px;
+  justify-content: left;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: 0.3s;
+  column-gap: 5px;
+  row-gap: 0px;
+}
+.list:hover {
+  font-weight: bold;
+}
+.folder-icon {
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 8px 0px 0px 8px;
+}
+.folder-icon:hover {
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media (min-width: 1440px) {
+  .list {
+    margin: 10px 0px 10px 0px;
+    row-gap: 30px;
+  }
+}

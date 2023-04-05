@@ -1,0 +1,26 @@
+.revenue {
+  align-items: center;
+  height: 90%;
+  width: 80%;
+  color: white;
+  display: flex;
+  column-gap: 30px;
+}
+.dolar {
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.total {
+  font-weight: 300;
+}
+.amnt {
+  font-weight: 600;
+}
+.items {
+  width: 70%;
+}

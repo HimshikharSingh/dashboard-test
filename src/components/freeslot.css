@@ -1,0 +1,134 @@
+.date {
+  font-size: 30px;
+  font-weight: 600;
+}
+.month {
+  font-size: 12px;
+  font-weight: 400;
+}
+.freeslot {
+  height: 80%;
+  width: 80%;
+}
+.slots {
+  height: 90%;
+  align-content: center;
+  color: white;
+  display: grid;
+  grid-height: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+}
+
+.grid1 {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.grid2 {
+  background-shade: #fe535e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  border-radius: 20px;
+  background-color: black;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.grid3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  border-radius: 20px;
+  background-color: black;
+  grid-area: 3 / 1 / 4 / 2;
+}
+.grid4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  border-radius: 20px;
+  background-color: black;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.grid5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  border-radius: 20px;
+  background-color: black;
+  grid-area: 3 / 2 / 4 / 3;
+}
+.grid6 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.grid7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  border-radius: 20px;
+  background-color: black;
+  grid-area: 2 / 3 / 3 / 4;
+}
+.grid8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  border-radius: 20px;
+  background-color: black;
+  grid-area: 3 / 3 / 4 / 4;
+}
+.grid2:hover {
+  background-color: #fe535e;
+  grid-area: 2 / 1 / 3 / 2;
+  transition: 0.3s;
+}
+.grid3:hover {
+  background-color: #fe535e;
+  grid-area: 3 / 1 / 4 / 2;
+  transition: 0.3s;
+}
+.grid4:hover {
+  background-color: #fe535e;
+  grid-area: 2 / 2 / 3 / 3;
+  transition: 0.3s;
+}
+.grid5:hover {
+  background-color: #fe535e;
+  grid-area: 3 / 2 / 4 / 3;
+  transition: 0.3s;
+}
+.grid7:hover {
+  background-color: #fe535e;
+  grid-area: 2 / 3 / 3 / 4;
+  transition: 0.3s;
+}
+.grid8:hover {
+  background-color: #fe535e;
+  grid-area: 3 / 3 / 4 / 4;
+  transition: 0.3s;
+}
+.MuiSwitch-thumb {
+  background-color: #fe535e !important;
+}
+.MuiSwitch-track {
+  height: 5px !important;
+  margin-top: 2px;
+}
+@media (768px) {
+  .slots {
+    grid-column-gap: flex;
+    grid-row-gap: flex;
+  }
+}
