@@ -3,11 +3,11 @@ import React from "react";
 function Header() {
   return (
     <div style={{ height: "60%", width: "60%" }}>
-      <div style={{ color: "#fe525c", fontWeight: 500, textAlign: "left" }}>
+      <text style={{ color: "#fe525c", fontWeight: 500, textAlign: "left" }}>
         Himshikhar
-      </div>
+      </text>
       <br></br>
-      <div
+      <text
         style={{
           color: "white",
           fontWeight: 400,
@@ -16,12 +16,12 @@ function Header() {
         }}
       >
         UI/UX Designer
-      </div>
+      </text>
       <br />
       <br />
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div style={{ alignContent: "flex-start" }}>
-          <div
+          <text
             style={{
               color: "white",
               fontWeight: 500,
@@ -30,9 +30,9 @@ function Header() {
             }}
           >
             125
-          </div>
+          </text>
           <br />
-          <div
+          <text
             style={{
               color: "white",
               fontWeight: 400,
@@ -41,10 +41,10 @@ function Header() {
             }}
           >
             Projects
-          </div>
+          </text>
         </div>
         <div style={{ alignContent: "flex-end" }}>
-          <div
+          <text
             style={{
               color: "white",
               fontWeight: 500,
@@ -53,9 +53,9 @@ function Header() {
             }}
           >
             $127
-          </div>
+          </text>
           <br />
-          <div
+          <text
             style={{
               color: "white",
               fontWeight: 400,
@@ -64,7 +64,7 @@ function Header() {
             }}
           >
             Revenue
-          </div>
+          </text>
         </div>
       </div>
     </div>
