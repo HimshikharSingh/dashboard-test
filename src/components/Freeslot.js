@@ -5,32 +5,32 @@ import Switch from "@mui/material/Switch";
 function Freeslot() {
   return (
     <div className="freeslot">
-      <div class="slots">
-        <div class="grid1"> Free Slots Available</div>
-        <div class="grid2">
+      <div className="slots">
+        <div className="grid1"> Free Slots Available</div>
+        <div className="grid2">
           <div className="date">12</div>
           <div className="month">June</div>
         </div>
-        <div class="grid3">
+        <div className="grid3">
           <div className="date">12</div>
           <div className="month">June</div>{" "}
         </div>
-        <div class="grid4">
+        <div className="grid4">
           <div className="date">12</div>
           <div className="month">June</div>
         </div>
-        <div class="grid5">
+        <div className="grid5">
           <div className="date">12</div>
           <div className="month">June</div>{" "}
         </div>
-        <div class="grid6">
-          <Switch defaultUnChecked size="small" />
+        <div className="grid6">
+          <Switch defaultChecked={false} size="small" />
         </div>
-        <div class="grid7">
+        <div className="grid7">
           <div className="date">12</div>
           <div className="month">June</div>{" "}
         </div>
-        <div class="grid8">
+        <div className="grid8">
           <div className="date">12</div>
           <div className="month">June</div>{" "}
         </div>

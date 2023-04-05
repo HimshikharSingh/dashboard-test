@@ -9,11 +9,11 @@ function Pro() {
         paddingTop: 10,
       }}
     >
-      <text style={{ color: "white", fontWeight: 600, textAlign: "left" }}>
+      <div style={{ color: "white", fontWeight: 600, textAlign: "left" }}>
         Go Pro
-      </text>
+      </div>
       <br></br>
-      <text
+      <div
         style={{
           color: "white",
           fontWeight: 400,
@@ -22,7 +22,7 @@ function Pro() {
         }}
       >
         Upgrade yor plans to get pro benefits
-      </text>
+      </div>
       <br></br>
       <br />
       <div style={{ display: "flex", alignContent: "right" }}>
